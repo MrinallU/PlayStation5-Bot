@@ -21,6 +21,6 @@ Due to the scalpers reselling the new PlayStation above market price, I decided 
 
 # Help/Troubleshooting
 
-1. [Creating a throwaway profile for use](https://stackoverflow.com/questions/52394408/how-to-use-chrome-profile-in-selenium-webdriver-python-3/52399027#52399027)
-2. If the first solution does not work: [How to open a chrome profile in python](https://stackoverflow.com/questions/52394408/how-to-use-chrome-profile-in-selenium-webdriver-python-3/52399027#52399027)
+1. [Creating a throwaway profile for use.](https://stackoverflow.com/questions/52394408/how-to-use-chrome-profile-in-selenium-webdriver-python-3/52399027#52399027)
+2. If the first solution does not work: [How to open a chrome profile in python.](https://stackoverflow.com/questions/52394408/how-to-use-chrome-profile-in-selenium-webdriver-python-3/52399027#52399027)
 3. Feel free to submit an issue for help/suggestions!
