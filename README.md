@@ -12,5 +12,5 @@ Due to the scalpers reselling the new PlayStation above market price, I decided 
 # Instructions
 
 1. Open main.py script and replace my chrome data with yours, the fields needed should be clearly described in the comments.
-2. You can keep the throwaway accout as the the default sender (recommend) or change it (requires quite a bit of extra setup). 
-3. Change the receiver email as needed. 
+2. You can keep the throwaway accout as the the default sender (recommend) or change it (requires quite a bit of extra setup).
+3. Change the receiver email as needed.
