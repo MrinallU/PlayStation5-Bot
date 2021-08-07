@@ -1,6 +1,6 @@
 # PlayStation5-Bot
 
-Due to the scalpers reselling the new PlayStation above market price, I decided to make a tool to (hopefully) combat this. This Python bot constantly scrapes the Amazon Playstation5 page and when in stock, immediately adds one console to the cart and notifies the user of the action. The bot can also notify and auto-cart nearly every other Amazon product (with the exception of items that force the user to pick a size).
+Due to the scalpers reselling the new PlayStation above market price, I decided to make a tool to (hopefully) combat this. This Python bot constantly scrapes the Amazon Playstation5 page and when in stock, immediately adds one console to the cart and notifies the user of the action. The bot can also notify and auto-cart nearly every other Amazon product (except items that force the user to pick a size).
 
 # Table of Contents
 
@@ -30,7 +30,7 @@ Due to the scalpers reselling the new PlayStation above market price, I decided 
 # Usage
 
 1. Simply keep, change or, add links in the `urlArr` section in the script.
-2. Run and enjoy, you will be notifiied when one of your desired items are found.
+2. Run and enjoy, you will be notified when one of your desired items are found.
 
 # Help/Troubleshooting
 

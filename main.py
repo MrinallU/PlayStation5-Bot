@@ -43,13 +43,14 @@ def sendMailAlert():
     # Create a secure SSL context
     context = ssl.create_default_context()
 
-    with smtplib.SMTP_SSL("smtp.gmail.com", port, context=context) as server: # DO NOT Change this line.
-        server.login("throwaway2342342342345r@gmail.com", password) # No need to change.
-        server.sendmail("throwaway2342342342345r@gmail.com", "mrinalluma@gmail.com", # Change the 'mrinalluma@gmail.com' to your email. 
+    with smtplib.SMTP_SSL("smtp.gmail.com", port, context=context) as server:  # DO NOT Change this line.
+        server.login("throwaway2342342342345r@gmail.com", password)  # No need to change.
+
+        server.sendmail("throwaway2342342342345r@gmail.com", "mrinalluma@gmail.com",  # Change the 'mrinalluma@gmail.com' to your email.
                         "Ps5 is in stock and should be added in cart, check asap!")
 
 
-# Bot checks and proccess URL.
+# Bot checks and process URL.
 def process(currURL):
     driver.get(currURL)
 
