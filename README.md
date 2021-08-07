@@ -4,7 +4,7 @@ Due to the scalpers reselling the new PlayStation above market price, I decided 
 
 # Table of Contents
 
-1. [Supported Platforms](#Supported Platforms)
+1. [Supported Platforms](#Supported-Platforms)
 2. [Requirements](#Requirements)
 3. [Setup](#Setup)
 4. [Usage](#Usage)
