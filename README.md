@@ -7,15 +7,17 @@ Due to the scalpers reselling the new PlayStation above market price, I decided 
 1. Google Chrome
 2. [Chrome Driver](https://chromedriver.chromium.org/)
 3. Windows 10
-4. PiPy (installed with "pip install pypi-install")
-5. All packages specified in the script (can easily be installed with pip, PiPy must be installed before this!)
+4. A throwaway chrome profile
+5. PiPy (installed with "pip install pypi-install")
+6. All packages specified in the script (can easily be installed with pip, PiPy must be installed before this!)
 
 # Instructions
 
 1. Open main.py script and replace my chrome data with yours, the fields needed should be clearly described in the comments.
-2. You can keep the throwaway account as the default sender (recommend) or change it (requires quite a bit of extra setup).
-3. Change the receiver email as needed.
-4. Optional: You can remove the `sendMailAlert()` method, as well as it's mentions if it is too much of a hassle to set up.
+2. Be Sure to change the `options.add_argument("profile-directory=Profile 6")` to your throwaway profile.
+3. You can keep the throwaway account as the default sender (recommend) or change it (requires quite a bit of extra setup).
+4. Change the receiver email as needed.
+5. Optional: You can remove the `sendMailAlert()` method, as well as it's mentions if it is too much of a hassle to set up.
 
 # Help/Troubleshooting
 
