@@ -38,13 +38,13 @@ def listToString(s):
 
 def sendMailAlert():
     port = 465  # For SSL (No Need to Change)
-    password = "Thekey2275!"  # Fill this with your email passcode! (The sender passcode to be specific)
+    password = "Thekey2275!"  # No need to change this.
 
     # Create a secure SSL context
     context = ssl.create_default_context()
 
     with smtplib.SMTP_SSL("smtp.gmail.com", port, context=context) as server: # DO NOT Change this line.
-        server.login("throwaway2342342342345r@gmail.com", password) # Change with desired sender mail, or leave as be...
+        server.login("throwaway2342342342345r@gmail.com", password) # No need to change.
         server.sendmail("throwaway2342342342345r@gmail.com", "mrinalluma@gmail.com", # Change the 'mrinalluma@gmail.com' to your email. 
                         "Ps5 is in stock and should be added in cart, check asap!")
 
