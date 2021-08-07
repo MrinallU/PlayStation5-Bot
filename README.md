@@ -17,6 +17,6 @@ Due to the scalpers reselling the new PlayStation above market price, I decided 
 3. Change the receiver email as needed.
 4. Optional: You can remove the `sendMailAlert()` method, as well as it's mentions if it is too much of a hassle to set up.
 
-# Help/Troubleshooting 
+# Help/Troubleshooting
 
 Feel free to submit an issue.
