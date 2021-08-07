@@ -17,9 +17,9 @@ availableList = []
 
 options = webdriver.ChromeOptions()
 options.add_argument("--user-data-dir=C:\\Users\\uma\\AppData\\Local\\Google\\Chrome\\User Data - Copy")  # Copying
-# user data folder is required
+# user data folder is required! You also must replace with your path.
 
-options.add_argument("profile-directory=Profile 6")  # Fill this wih the profile directory that you want to use (
+options.add_argument("profile-directory=Profile 6")  # Fill this wih the profile directory that you want to use
 # preferably a throwaway account).
 options.add_argument('no-sandbox')
 options.add_argument("--disable-extensions")
@@ -37,18 +37,15 @@ def listToString(s):
 
 
 def sendMailAlert():
-    port = 465  # For SSL
-    password = "Thekey2275!"  # Fill this with your email passcode
+    port = 465  # For SSL (No Need to Change)
+    password = "Thekey2275!"  # Fill this with your email passcode! (The sender passcode to be specific)
 
     # Create a secure SSL context
     context = ssl.create_default_context()
 
-    with smtplib.SMTP_SSL("smtp.gmail.com", port, context=context) as server:
-        server.login("throwaway2342342342345r@gmail.com", password)
-        server.sendmail("throwaway2342342342345r@gmail.com", "mrinalluma@gmail.com",
-                        # Fill this with your respective emails
-                        "Ps5 is in stock and should be added in cart, check asap!")
-        server.sendmail("throwaway2342342342345r@gmail.com", "mastercoder45@gmail.com",
+    with smtplib.SMTP_SSL("smtp.gmail.com", port, context=context) as server: # DO NOT Change this line.
+        server.login("throwaway2342342342345r@gmail.com", password) # Change with desired sender mail, or leave as be...
+        server.sendmail("throwaway2342342342345r@gmail.com", "mrinalluma@gmail.com", # Change the 'mrinalluma@gmail.com' to your email. 
                         "Ps5 is in stock and should be added in cart, check asap!")
 
 
