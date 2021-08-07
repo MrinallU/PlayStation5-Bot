@@ -52,7 +52,7 @@ def sendMailAlert():
                         "Ps5 is in stock and should be added in cart, check asap!")
 
 
-# Bot does it's magic
+# Bot checks and proccess URL.
 def process(currURL):
     driver.get(currURL)
 
