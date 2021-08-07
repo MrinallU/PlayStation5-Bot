@@ -8,7 +8,7 @@ Due to the scalpers reselling the new PlayStation above market price, I decided 
 1. [Requirements](#Requirements)
 1. [Setup](#Setup)
 1. [Usage](#Usage)
-1. [Help/Troubleshooting](# Help/Troubleshooting)
+1. [Help/Troubleshooting](#Help/Troubleshooting)
 1. [Demo](https://youtu.be/NCndmVCOSxQ)
 
 # Supported Platforms
