@@ -29,7 +29,7 @@ Due to the scalpers reselling the new PlayStation5 above market price, I decided
    **If you decide to make a new throwaway as sender:**
    1. Be Sure to change the `options.add_argument("profile-directory=Profile 6")` to your throwaway profile directory.
    2. Check the [Help/Troubleshooting](#Help/Troubleshooting) section for some relavent tips.
-   <br/>
+      <br/>
 3. Change the receiver email as needed.
 4. Optional: You can remove the `sendMailAlert()` method, as well as it's mentions if it is too much of a hassle to set up.
 
