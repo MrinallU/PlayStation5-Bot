@@ -22,8 +22,8 @@ Due to the scalpers reselling the new PlayStation5 above market price, I decided
 
 # Setup
 
-1. Open main.py script and replace my chrome data with yours, the fields needed should be clearly described in the comments. 
-2. Change `executable_path='C:/Users/uma/chromedriver.exe` to your respective Chrome path. 
+1. Open main.py script and replace my chrome data with yours, the fields needed should be clearly described in the comments.
+2. Change `executable_path='C:/Users/uma/chromedriver.exe` to your respective Chrome path.
 3. Change `options.add_argument("profile-directory=Profile 6")` to your desired profile directory.
 4. You can keep the throwaway account as the default sender (recommend) or change it (requires quite a bit of extra setup).
    <br/>
@@ -33,8 +33,8 @@ Due to the scalpers reselling the new PlayStation5 above market price, I decided
    1. Be Sure to change the email and password to your throwaway email.
    2. Check the [Help/Troubleshooting](#Help/Troubleshooting) section for some more relavent tips.
 
-3. Change the receiver email as needed.
-4. Optional: You can remove the `sendMailAlert()` method, as well as where it is being called if you do not want email notifications or it is too much of a hassle to set up.
+5. Change the receiver email as needed.
+6. Optional: You can remove the `sendMailAlert()` method, as well as where it is being called if you do not want email notifications or it is too much of a hassle to set up.
 
 # Usage
 
