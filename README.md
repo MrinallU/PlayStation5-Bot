@@ -1,14 +1,15 @@
 # PlayStation5-Bot
 
-Due to the scalpers reselling the new PlayStation above market price, I decided to make a tool to (hopefully) combat this. This Python bot constantly scrapes the Amazon Playstation5 page and when in stock, immediately adds one console to the cart and notifies the user of the action. The bot can also notify and auto-cart nearly every other Amazon product (except items that force the user to pick a size).
+Due to the scalpers reselling the new PlayStation5 above market price, I decided to make a tool to (hopefully) combat this. This Python bot constantly scrapes the Amazon and BestBuy Playstation5 pages, and when in stock, immediately adds one console to the cart and notifies the user of the action. The bot can also notify and auto-cart nearly every other Amazon/BestBuy product.
 
 # Table of Contents
 
-1. [Requirements](#Requirements)
-2. [Setup](#Setup)
-3. [Usage](#Usage)
-4. [Help/Troubleshooting](#Help/Troubleshooting)
-5. [Demo](https://youtu.be/NCndmVCOSxQ)
+1. [Supported Platforms](#Supported-Platforms)
+2. [Requirements](#Requirements)
+3. [Setup](#Setup)
+4. [Usage](#Usage)
+5. [Help/Troubleshooting](#Help/Troubleshooting)
+6. [Demo](https://youtu.be/NCndmVCOSxQ)
 
 # Requirements
 
@@ -37,3 +38,8 @@ Due to the scalpers reselling the new PlayStation above market price, I decided 
 1. [Creating a throwaway profile for use.](https://stackoverflow.com/questions/52394408/how-to-use-chrome-profile-in-selenium-webdriver-python-3/52399027#52399027)
 2. If the first solution does not work: [How to open a chrome profile in python.](https://stackoverflow.com/questions/52394408/how-to-use-chrome-profile-in-selenium-webdriver-python-3/52399027#52399027)
 3. Feel free to submit an issue for help/suggestions!
+
+# Supported Platforms
+
+1. BestBuy
+2. Amazon
