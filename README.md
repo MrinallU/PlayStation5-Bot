@@ -21,7 +21,7 @@ Due to the scalpers reselling the new PlayStation5 above market price, I decided
 6. PiPy (installed with "pip install pypi-install")
 7. All packages specified in the script (can easily be installed with pip, PiPy must be installed before this!)
    <br/>
-   > Step 6 may be skipped if you clone the project with the PyCharm, as all packages will be installed for you.
+ > Step 6 may be skipped if you clone the project with the PyCharm, as all packages will be installed for you.
 
 # Setup
 
