@@ -28,7 +28,7 @@ Due to the scalpers reselling the new PlayStation5 above market price, I decided
 4. You can keep the throwaway account as the default sender (recommend) or change it (requires quite a bit of extra setup).
    <br/>
    <br/>
-   **If you decide to make a new throwaway as sender:**
+   **If you do decide to make a new account for the sender address:**
 
    1. Be Sure to change the email and password to your throwaway email.
    2. Check the [Help/Troubleshooting](#Help/Troubleshooting) section for some more relavent tips.
