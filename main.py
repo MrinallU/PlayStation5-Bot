@@ -10,7 +10,10 @@ from selenium.webdriver.common.by import By
 # Enter Amazon URL(s) as needed
 urlArr = [
     'https://www.amazon.com/PlayStation-5-Console/dp/B08FC5L3RG/ref=sr_1_3?dchild=1&keywords=ps5&qid=1628291295&sr=8-3',
-    'https://www.amazon.com/PS5-Playstation-Digital-x86-64-AMD-Bluetooth/dp/B091Q9B4Q6/ref=sr_1_2?dchild=1&keywords=ps5&qid=1628354139&sr=8-2'
+    'https://www.bestbuy.com/site/sony-playstation-5-console/6426149.p?skuId=6426149',
+    'https://www.bestbuy.com/site/sony-playstation-5-digital-edition-console/6430161.p?skuId=6430161',
+    'https://www.bestbuy.com/site/combo/ps5-consoles/8f146095-0a5f-4993-b123-711a1d34745b',
+    'https://www.bestbuy.com/site/combo/ps5-consoles/effaa8ef-23cd-4191-8fb4-485e6f1f9875'
 ]
 
 availableList = []
@@ -73,17 +76,23 @@ def process(currURL):
                 # product then auto refuse.
             except:
                 print("No protection plan found, moving on...")
+        elif "bestbuy" in currURL:
+            availableList.append(currURL)
+            driver.find_element_by_class_name("fulfillment-add-to-cart-button").click()  # Adds to cart
+            print("Ps5 is in stock!")
 
 
 while True:
     for url in urlArr:
         process(url)
-    if len(availableList) > 0:
-        # Send alert(s)
-        sendMailAlert()
-        toaster.show_toast("Ps5 is in stock!", listToString(availableList))  # Shows notification on desktop (Windows
-        # systems only)
+        if len(availableList) > 0:
+            # Send alert(s)
+            sendMailAlert()
+            toaster.show_toast("Ps5 is in stock!", listToString(availableList))  # Shows notification on desktop (Windows
+            # systems only)
 
-        print(listToString(availableList))  # Displays links that currently have a console in stock.
-        break  # Terminates after adding one PS5 as I am not a scalper!
+            print(listToString(availableList))  # Displays links that currently have a console in stock.
+            exit()  # Terminates after adding one PS5 as I am not a scalper!
+    print()
+    print("Trying Again...")
     driver.minimize_window()
