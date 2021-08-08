@@ -23,7 +23,7 @@ Due to the scalpers reselling the new PlayStation5 above market price, I decided
 # Setup
 
 1. Open main.py script and replace my chrome data with yours, the fields needed should be clearly described in the comments.
-2. Change `executable_path='C:/Users/uma/chromedriver.exe` to your respective Chrome path.
+2. Change `executable_path='C:/Users/uma/chromedriver.exe'` to your respective Chrome path.
 3. Change `options.add_argument("profile-directory=Profile 6")` to your desired profile directory (preferably not your main profile).
 4. You can keep the throwaway account as the default sender address (recommend) or change it (requires lots of extra setup).
    <br/>
